@@ -5,14 +5,14 @@
     --font-size-side-dock:           16px;
     --font-size-side-dock-title:     18px;
     --font-size-status-bar:          16px;
-    --font-size-h1:                  24px;
-    --font-size-h2:                  23px;
-    --font-size-h3:                  22px;
-    --font-size-h4:                  21px;
-    --font-size-h5:                  20px;
+    --font-size-h1:                  29px;
+    --font-size-h2:                  27px;
+    --font-size-h3:                  25px;
+    --font-size-h4:                  23px;
+    --font-size-h5:                  21px;
     --font-size-h6:                  19px;
-    --font-family-editor:            Avenir, Avenir Next, sans-serif;
-    --font-family-preview:           Avenir, Avenir Next, sans-serif;
+    --font-family-editor:            Consolas, monaco, monospace;
+    --font-family-preview:           Consolas, monaco, monospace;
 } 
 
 .theme-light,
@@ -283,7 +283,7 @@ img:hover {
 .cm-header-1, .markdown-preview-view h1
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 750;
   font-size: var(--font-size-h1);
   color: var(--text-title-h1);
 }
@@ -291,7 +291,7 @@ img:hover {
 .cm-header-2, .markdown-preview-view h2
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 750;
   font-size: var(--font-size-h2);
   color: var(--text-title-h2);
 }
@@ -299,7 +299,7 @@ img:hover {
 .cm-header-3, .markdown-preview-view h3
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 750;
   font-size: var(--font-size-h3);
   color: var(--text-title-h3);
 }
@@ -307,7 +307,7 @@ img:hover {
 .cm-header-4, .markdown-preview-view h4
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 750;
   font-size: var(--font-size-h4);
   color: var(--text-title-h4);
 }
@@ -315,7 +315,7 @@ img:hover {
 .cm-header-5, .markdown-preview-view h5
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 750;
   font-size: var(--font-size-h5);
   color: var(--text-title-h5);
 }
@@ -323,7 +323,7 @@ img:hover {
 .cm-header-6, .markdown-preview-view h6
 {
   font-family: var(--font-family-editor);
-  font-weight: 500;
+  font-weight: 750;
   font-size: var(--font-size-h6);
   color: var(--text-title-h6);
 }
