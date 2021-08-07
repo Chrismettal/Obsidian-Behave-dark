@@ -12,7 +12,7 @@
     --font-size-h5:                  21px;
     --font-size-h6:                  19px;
     --font-family-editor:            Consolas, monaco, monospace;
-    --font-family-preview:           Consolas, monaco, monospace;
+    --font-family-preview:           Avenir, Avenir Next, sans-serif;
 } 
 
 .theme-light,
