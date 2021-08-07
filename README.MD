@@ -16,6 +16,6 @@ If you like my work please consider supporting my caffeine addiction!
 
 <a href='https://ko-fi.com/U7U6G0X3' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-## Installing
+## Manual installation
 
-Move `Behave-dark.css` into your `.obsidian/themes` folder, restart Obsidian and choose the `Behave-dark` option under `Appearence/themes`
+Rename `obsidian.css` to `Behave-dark.css` and move it into your `.obsidian/themes` folder, restart Obsidian and choose the `Behave-dark` option under `Appearence/themes`
