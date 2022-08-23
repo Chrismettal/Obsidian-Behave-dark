@@ -11,8 +11,6 @@
     --font-size-h4:                  23px;
     --font-size-h5:                  21px;
     --font-size-h6:                  19px;
-    --font-family-editor:            Consolas, monaco, monospace;
-    --font-family-preview:           Avenir, Avenir Next, sans-serif;
 } 
 
 .theme-light,
@@ -207,11 +205,6 @@ a:not(.internal-link) {
 /* basic format in EDITOR and PREVIEW */
 /**************************************/
 
-/* font for everything outside of editor/preview panes */
-.app-container {
-  font-family: var(--font-family-preview);
-}
-
 /* set the text selection color for preview mode */
 ::selection {
   background-color: var(--text-selection);
@@ -219,13 +212,11 @@ a:not(.internal-link) {
 
 /* normal text outside of headings and code of editor */
 .cm-s-obsidian, .mod-single-child .cm-s-obsidian {
-  font-family: var(--font-family-editor);
   font-size: var(--font-size-normal);
 }
 
 /* normal text outside of headings and code of preview */
 .markdown-preview-view, .mod-single-child .markdown-preview-view {
-  font-family: var(--font-family-editor);
   font-size: var(--font-size-normal);
   padding-top: 0px;
   padding-left: 2% !important;
@@ -282,7 +273,6 @@ img:hover {
 /* headings for editor and preview */
 .cm-header-1, .markdown-preview-view h1
 {
-  font-family: var(--font-family-editor);
   font-weight: 750;
   font-size: var(--font-size-h1);
   color: var(--text-title-h1);
@@ -290,7 +280,6 @@ img:hover {
 
 .cm-header-2, .markdown-preview-view h2
 {
-  font-family: var(--font-family-editor);
   font-weight: 750;
   font-size: var(--font-size-h2);
   color: var(--text-title-h2);
@@ -298,7 +287,6 @@ img:hover {
 
 .cm-header-3, .markdown-preview-view h3
 {
-  font-family: var(--font-family-editor);
   font-weight: 750;
   font-size: var(--font-size-h3);
   color: var(--text-title-h3);
@@ -306,7 +294,6 @@ img:hover {
 
 .cm-header-4, .markdown-preview-view h4
 {
-  font-family: var(--font-family-editor);
   font-weight: 750;
   font-size: var(--font-size-h4);
   color: var(--text-title-h4);
@@ -314,7 +301,6 @@ img:hover {
 
 .cm-header-5, .markdown-preview-view h5
 {
-  font-family: var(--font-family-editor);
   font-weight: 750;
   font-size: var(--font-size-h5);
   color: var(--text-title-h5);
@@ -322,7 +308,6 @@ img:hover {
 
 .cm-header-6, .markdown-preview-view h6
 {
-  font-family: var(--font-family-editor);
   font-weight: 750;
   font-size: var(--font-size-h6);
   color: var(--text-title-h6);
@@ -334,7 +319,6 @@ img:hover {
 
 /* code blocks in preview */
 pre code {
-  font-family: var(--font-family-editor) !important;
   font-size: var(--font-size-code) !important;
   padding: 6px !important;
   line-height: normal;
@@ -648,7 +632,6 @@ ul .task-list-item ul::before {left: 0.15em !important}
 
  /* Editor CodeBlock TEXT Appearance */
 .cm-s-obsidian pre.HyperMD-codeblock {
-  font-family: var(--font-family-editor) !important;
   font-size: var(--font-size-code) !important;
   padding: 1px !important;
   display: block;
