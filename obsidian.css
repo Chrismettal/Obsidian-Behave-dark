@@ -196,10 +196,6 @@ a:not(.internal-link) {
   background-color: var(--text-selection);
 } 
 
-/* normal text outside of headings and code of editor */
-.cm-s-obsidian, .mod-single-child .cm-s-obsidian {
-}
-
 /* normal text outside of headings and code of preview */
 .markdown-preview-view, .mod-single-child .markdown-preview-view {
   padding-top: 0px;
@@ -307,10 +303,6 @@ pre code {
 .markdown-preview-view pre {
   padding: 0px !important;
 }
-.markdown-preview-view code
-{
-}
-
 
 /* remove the shadow that typically affect light mode */
 .theme-dark code[class*="language-"],
@@ -426,13 +418,6 @@ thead {
 /*            Side panel               */
 /***************************************/
 
-/* search result in backlink or file search */
-.search-result-file-title {  
-}
-
-.search-result-file-matches, .search-empty-state {
-}
-
 /*decrease the spacing between result items*/
 .search-result-file-title,
 .search-result-file-match {
@@ -451,12 +436,6 @@ thead {
   background-color: var(--background-secondary);
 }
 
-.workspace-leaf-content[data-type="tag"] .tag-pane-tag-count,
-.workspace-leaf-content[data-type="tag"] .tag-pane-tag-text {  
-}
-
-.workspace-leaf-content[data-type="backlink"] .search-result-file-matches {
-}
 /***************************************/
 /* internal embedded link in preview   */
 /***************************************/
@@ -564,9 +543,6 @@ color: var(--text-accent) !important;
 
 .view-header-title, .view-header-icon, .view-action{
   color: var(--text-faint);
-}
-.view-header-title
-{
 }
 
 /***************************************/
