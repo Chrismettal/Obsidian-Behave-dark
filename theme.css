@@ -34,6 +34,9 @@
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+  --accent-h: 152;
+  --accent-s: 56%;
+  --accent-l: 60%;
 
   --text-title-h1:              #F0D879;
   --text-title-h2:              #61D29D;
@@ -110,8 +113,7 @@
 
 /*status-bar*/
 .status-bar{
-  background-color: var(--background-secondary-alt);
-  border-top: 0px;
+  background-color: var(--background-secondary);
 }
 
 .document-search-container{
@@ -492,8 +494,39 @@ color: var(--text-accent) !important;
 /*            settings                 */
 /***************************************/
 
+.modal.mod-settings button:not(.mod-cta) {
+  background-color: var(--interactive-accent);
+}
+
+.modal.mod-settings button:not(.mod-cta) {
+  color: var(--text-on-accent);
+  background-color: var(--interactive-accent);
+}
+
 .modal.mod-settings button:not(.mod-cta):hover {
   background-color: var(--interactive-accent-hover);
+}
+
+button.clickable-icon {
+  background-color: var(--background-secondary-alt);
+}
+
+.dropdown {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.dropdown:hover {
+  background-color: var(--interactive-accent-hover);
+}
+
+
+.dropdown option {
+  color: var(--text-normal);
+}
+
+.dropdown option:hover {
+  background-color: var(--text-highlight-bg;
 }
 
 /***************************************/
