@@ -526,7 +526,7 @@ button.clickable-icon {
 }
 
 .dropdown option:hover {
-  background-color: var(--text-highlight-bg;
+  background-color: var(--text-highlight-bg);
 }
 
 /***************************************/
