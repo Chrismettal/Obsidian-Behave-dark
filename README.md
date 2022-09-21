@@ -1,14 +1,8 @@
 # Behave-dark theme for Obsidian <!-- omit in toc -->
 
-![Screenshot](Screenshot.png)
+![Screenshot](screenshot_1080p.png)
 
 Port of the awesome, eye friendly [Behave theme](https://github.com/fnky/behave-theme) by Christian Petersen. Only dark mode is supported as the name suggests. To be used with [Obsidian.md](https://Obsidian.md).
-
-Customized from the dracula theme found [here](hthttps://github.com/dracula/obsidian).
-
-Here is a side by side between Obsidian.md and VSCode using the [Behave full theme](https://github.com/Chrismettal/Behave-full-Theme), making working with the two absolutely seamless:
-
-![Comparison](Comparison.png)
 
 The Behave theme is also available for [FreeCAD](https://github.com/Chrismettal/FreeCAD-Behave-dark) as well as [KiCAD](https://github.com/pointhi/kicad-color-schemes), giving you a full stack suite all in the same theme!
 
