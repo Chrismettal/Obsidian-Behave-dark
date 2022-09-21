@@ -1,6 +1,6 @@
 # Behave-dark theme for Obsidian <!-- omit in toc -->
 
-![Screenshot](screenshot_1080p.png)
+![Screenshot](Screenshot_1080p.png)
 
 Port of the awesome, eye friendly [Behave theme](https://github.com/fnky/behave-theme) by Christian Petersen. Only dark mode is supported as the name suggests. To be used with [Obsidian.md](https://Obsidian.md).
 
