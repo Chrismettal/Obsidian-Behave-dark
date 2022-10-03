@@ -507,6 +507,10 @@ color: var(--text-accent) !important;
   background-color: var(--interactive-accent-hover);
 }
 
+button:not(.clickable-icon) {
+  color: var(--text-on-accent);
+}
+
 button.clickable-icon {
   background-color: var(--background-secondary-alt);
 }
