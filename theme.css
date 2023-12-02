@@ -17,6 +17,7 @@
   --background-modifier-error-hover: #EF4D44;
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
   --text-accent: #61D29D;
+  --text-accent-second: #F0D879;
   --text-accent-hover: #C9A9F9;
   --text-normal: #D2D8E1;
   --text-muted: #D2D8E1;
@@ -213,13 +214,20 @@ strong, .cm-strong {
 
 /* emphasis in preview and editor */
 em, .cm-em {
-  color: var(--text-muted);
+  color: var(--text-accent-second);
   font-style: italic;
 }
 
+/* emphasis in preview and editor */
+.highlight, mark, .cm-highlight {
+  background-color: var(--text-title-h3) !important;
+  color: var(--background-primary) !important;
+}
+
 /* strikethrough in preview and editor */
-s, .cm-strikethrough {
-  color: var(--text-muted);
+s, del, .cm-strikethrough {
+  color: var(--text-error);
+  opacity: 70%;
 }
 
 /* list in editor */
